@@ -1,25 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba05c292-1dfa-4687-903e-0ecad7b5d1ab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modularização.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ba05c292-1dfa-4687-903e-0ecad7b5d1ab" name="Changes" comment="fiz para criar modulos das aulas">
+      <change afterPath="$PROJECT_DIR$/ex107/moeda.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex107/programa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex108/moeda.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex108/principal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex109/moeda.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex109/principal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex110/moeda.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex110/principal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex111/UtilidadeCeV/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex111/UtilidadeCeV/dado/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex111/UtilidadeCeV/moeda/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex111/teste.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex112/UtilidadeCeV/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex112/UtilidadeCeV/dado/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex112/UtilidadeCeV/moeda/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex112/teste.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numeros.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uteis/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uteis/numeros/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;julianoberdet&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/julianoberdet/mod_para_estudar.git&quot;,
+    &quot;accountId&quot;: &quot;a45ea289-8c74-4fb7-b871-ed6f82693bc1&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="3IrgGQGFOLzPKaB1ahbOBWK1bHK" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,10 +64,24 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Programa.executor": "Debug",
+    "Python.__init__.executor": "Run",
+    "Python.dado.executor": "Run",
+    "Python.fatorial.executor": "Run",
+    "Python.moeda.executor": "Run",
+    "Python.numeros.executor": "Run",
+    "Python.principal.executor": "Run",
+    "Python.programa.executor": "Run",
+    "Python.teste.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Patricia Nicolini\PycharmProjects\modularização\ex107" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -47,6 +97,19 @@
       <option name="presentableId" value="Default" />
       <updated>1788528005650</updated>
     </task>
+    <task id="LOCAL-00001" summary="fiz para criar modulos das aulas">
+      <option name="closed" value="true" />
+      <created>1788528393606</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1788528393606</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fiz para criar modulos das aulas" />
+    <option name="LAST_COMMIT_MESSAGE" value="fiz para criar modulos das aulas" />
   </component>
 </project>

@@ -1,0 +1,1 @@
+from ex111.UtilidadeCeV import moeda,dado
