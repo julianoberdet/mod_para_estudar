@@ -5,26 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba05c292-1dfa-4687-903e-0ecad7b5d1ab" name="Changes" comment="fiz para criar modulos das aulas">
-      <change afterPath="$PROJECT_DIR$/ex107/moeda.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex107/programa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex108/moeda.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex108/principal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex109/moeda.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex109/principal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex110/moeda.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex110/principal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex111/UtilidadeCeV/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex111/UtilidadeCeV/dado/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex111/UtilidadeCeV/moeda/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex111/teste.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex112/UtilidadeCeV/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex112/UtilidadeCeV/dado/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex112/UtilidadeCeV/moeda/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex112/teste.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numeros.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uteis/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uteis/numeros/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex110/moeda.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex110/moeda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex111/UtilidadeCeV/moeda/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex111/UtilidadeCeV/moeda/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex112/UtilidadeCeV/dado/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex112/UtilidadeCeV/dado/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex112/UtilidadeCeV/moeda/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex112/UtilidadeCeV/moeda/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,22 +46,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Programa.executor": "Debug",
-    "Python.__init__.executor": "Run",
-    "Python.dado.executor": "Run",
-    "Python.fatorial.executor": "Run",
-    "Python.moeda.executor": "Run",
-    "Python.numeros.executor": "Run",
-    "Python.principal.executor": "Run",
-    "Python.programa.executor": "Run",
-    "Python.teste.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Programa.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dado.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fatorial.executor&quot;: &quot;Run&quot;,
+    &quot;Python.moeda.executor&quot;: &quot;Run&quot;,
+    &quot;Python.numeros.executor&quot;: &quot;Run&quot;,
+    &quot;Python.principal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.programa.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teste.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Patricia Nicolini\PycharmProjects\modularização\ex107" />
@@ -105,7 +91,23 @@
       <option name="project" value="LOCAL" />
       <updated>1788528393606</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fiz para criar modulos das aulas">
+      <option name="closed" value="true" />
+      <created>1788551452133</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1788551452133</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fiz para criar modulos das aulas">
+      <option name="closed" value="true" />
+      <created>1788551542741</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1788551542741</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

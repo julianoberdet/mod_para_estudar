@@ -1,33 +1,34 @@
-def aumentar(preco,taxa):
+def aumentar(preco,taxa,log=False):
     res = preco + (preco * taxa/100)
-    return res
+    return res if not log else moeda(res)
 
 
-def diminuir(preco,taxa):
+def diminuir(preco,taxa,log=False):
     res = preco - (preco * taxa/100)
-    return res
+    return res if not log else moeda(res)
 
 
-def dobro(preco):
+def dobro(preco,log=False):
     res = preco * 2
-    return res
+    return res if not log else moeda(res)
 
 
-def metade(preco):
+def metade(preco,log=False):
     res = preco / 2
-    return res
+    return res if not log else moeda(res)
 
 
 def moeda(preco,moeda='R$'):
     return f'{moeda}{preco:.2f}'.replace('.',',')
 
 
-def resumo(preco,aum,dim):
+def resumo(preco=0.0,aum=0.0,dim=0.0):
     print('-' * 30)
     print('RESUMO DO VALOR'.center(30))
     print('-' * 30)
     print(f'Preço analisado: \t{moeda(preco)}')
-    print(f'Dobro do preço: \t{moeda(dobro(preco))}')
-    print(f'{aum}% de aumento: \t{moeda(aumentar(preco,aum))}')
-    print(f'{dim}% de redução: \t{moeda(diminuir(preco,dim))}')
+    print(f'Dobro do preço: \t{dobro(preco,True)}')
+    print(f'A metade do preço: \t{metade(preco,True)}')
+    print(f'{aum}% de aumento: \t{aumentar(preco,aum,True)}')
+    print(f'{dim}% de redução: \t{diminuir(preco, dim,True)}')
     print('-' *30)
