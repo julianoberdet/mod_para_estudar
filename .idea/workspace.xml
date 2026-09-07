@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba05c292-1dfa-4687-903e-0ecad7b5d1ab" name="Changes" comment="fiz para criar modulos das aulas">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex110/moeda.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex110/moeda.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex111/UtilidadeCeV/moeda/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex111/UtilidadeCeV/moeda/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex112/UtilidadeCeV/dado/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex112/UtilidadeCeV/dado/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex112/UtilidadeCeV/moeda/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex112/UtilidadeCeV/moeda/__init__.py" afterDir="false" />
-    </list>
+    <list default="true" id="ba05c292-1dfa-4687-903e-0ecad7b5d1ab" name="Changes" comment="atualização dos exercicios" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,13 +54,37 @@
     &quot;Python.teste.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Patricia Nicolini\PycharmProjects\modularização\ex107" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="teste" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="modularização" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ex112" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex112/teste.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -107,11 +125,36 @@
       <option name="project" value="LOCAL" />
       <updated>1788551542741</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="atualização dos exercicios">
+      <option name="closed" value="true" />
+      <created>1788786004374</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1788786004390</updated>
+    </task>
+    <task id="LOCAL-00005" summary="atualização dos exercicios">
+      <option name="closed" value="true" />
+      <created>1788786046144</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1788786046144</updated>
+    </task>
+    <task id="LOCAL-00006" summary="atualização dos exercicios">
+      <option name="closed" value="true" />
+      <created>1788786067892</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1788786067892</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fiz para criar modulos das aulas" />
-    <option name="LAST_COMMIT_MESSAGE" value="fiz para criar modulos das aulas" />
+    <MESSAGE value="atualização dos exercicios" />
+    <option name="LAST_COMMIT_MESSAGE" value="atualização dos exercicios" />
   </component>
 </project>
