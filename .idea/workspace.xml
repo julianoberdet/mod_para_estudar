@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba05c292-1dfa-4687-903e-0ecad7b5d1ab" name="Changes" comment="atualização dos exercicios">
-      <change afterPath="$PROJECT_DIR$/controle_estoque_v1_0/lib/arquivo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controle_estoque_v1_0/lib/interface/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controle_estoque_v1_0/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex113/funcionalidades.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex113/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex114.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex115/lib/arquivo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex115/lib/interface/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex115/sistema.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controle_estoque_v1_0/lib/arquivo/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/controle_estoque_v1_0/lib/arquivo/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controle_estoque_v1_0/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/controle_estoque_v1_0/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788786444573</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="atualização dos exercicios">
+      <option name="closed" value="true" />
+      <created>1788911078044</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1788911078048</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
