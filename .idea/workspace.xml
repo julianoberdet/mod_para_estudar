@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba05c292-1dfa-4687-903e-0ecad7b5d1ab" name="Changes" comment="atualização dos exercicios">
+      <change afterPath="$PROJECT_DIR$/Sistema_Controle_Frequencia/lib/dados/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sistema_Controle_Frequencia/lib/interface/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sistema_Controle_Frequencia/sistema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gerenciador_tarefas/lib/dados/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gerenciador_tarefas/lib/titulo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gerenciador_tarefas/sistema.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex115/lib/arquivo/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex115/lib/arquivo/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex115/sistema.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex115/sistema.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,8 +189,19 @@
       <option name="project" value="LOCAL" />
       <updated>1788959759580</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="atualização dos exercicios">
+      <option name="closed" value="true" />
+      <created>1789483256874</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1789483256874</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="file-handler:ansi-highlighter" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
