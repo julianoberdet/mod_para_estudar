@@ -50,3 +50,34 @@ def LerArquivo(nome):
             print(f'{dado[0]:.<30}{dado[1]:>3} anos')
     finally:
         a.close()
+
+
+def excluirCadastro(arq,nome):
+    try:
+        #Lê todos da lista
+        with open(arq,'rt') as a:
+            linhas = a.readlines()
+
+        #Procura quem tem aquele nome
+        novo = []
+        achou = False
+        for l in linhas:
+            dados= l.split(';')
+            nome_arquivo = dados[0].strip()
+            if nome_arquivo.lower() == nome.lower().strip():
+                achou = True
+            else:
+                novo.append(l)
+
+        if not achou:
+            print(f'ERRO! Nome {nome} não encontrado')
+            return
+
+        #Reescreve o arquivo sem aquela pessoa
+        with open(arq,'wt') as a:
+            a.writelines(novo)
+
+        print(f'Nome {nome} removido com sucesso!')
+
+    except Exception as erro:
+        print(f'ERRO! a excluir: {erro}')
