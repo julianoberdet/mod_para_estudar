@@ -7,7 +7,8 @@ if not arquivoExiste(arq):
     criarArquivo(arq)
 
 while True:
-    resposta = menu(['Listar alunos e faltas','Cadastrar novo aluno','Registrar nova falta','Sair do sistema'])
+    resposta = menu(['Listar alunos e faltas','Cadastrar novo aluno','Registrar nova falta',
+                     'Excluir cadastro','Sair do sistema'])
     if resposta == 1:
         listarAlunos(arq)
 
@@ -27,8 +28,13 @@ while True:
         # 3. Execução do registro
         cadastrar_nova_Falta(arq, mat_busca)
 
-
     elif resposta == 4:
+        listarAlunos(arq)
+        cabeçalho('EXCLUIR ALUNO')
+        cod_Matricula = leiaInt('\nDigite a Matricula do aluno para excluir: ')
+        excluirAluno(arq,cod_Matricula)
+
+    elif resposta == 5:
         print(linha())
         print('\033[1;31mSaindo do sistema',end='')
         for _ in range(3):

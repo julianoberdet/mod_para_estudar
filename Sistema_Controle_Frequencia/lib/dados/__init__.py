@@ -52,7 +52,7 @@ def listarAlunos(arq):
 def cadastrar_nova_Falta(arq, cod=0):
     lista = []
     achou = False
-    nome_alterado = ''  # 1. CRIA A VARIÁVEL AQUI FORA
+    nome_alterado = ''  # Variavel para não entrar em loop, para mostrar o nome certo da nova falta
 
     try:
         with open(arq, 'rt', encoding='utf-8') as a:
@@ -63,7 +63,7 @@ def cadastrar_nova_Falta(arq, cod=0):
 
                     if int(mat) == cod:
                         achou = True
-                        nome_alterado = nome  # 2. SALVA O NOME CERTO AQUI DENTRO
+                        nome_alterado = nome  # Salva o nome certo sem entrar no loop
                         print(f'Aluno encontrado: {nome} (Faltas atuais: {faltas})')
 
                         while True:
@@ -92,6 +92,53 @@ def cadastrar_nova_Falta(arq, cod=0):
                 print(f'\033[36mFaltas de {nome_alterado} atualizadas com sucesso\033[m')
         except:
             print('Houve um erro ao atualizar o arquivo')
+
+
+def excluirAluno(arq,cod):
+    lista = []
+    achou = False
+    try:
+        with open(arq,'rt',encoding='utf-8') as a:
+            for l in a:
+                dado = l.replace('\n','').split(';')
+                if len(dado) == 3:
+                    mat, nome, faltas = dado[0], dado[1], int(dado[2])
+                    if int(mat) == cod:
+                        achou = True
+                        nome_encontrado = nome
+                    else:
+                        lista.append(f'{mat};{nome};{faltas}\n')
+
+    except FileNotFoundError:
+        print('Arquivo não encontrado!')
+    except Exception as erro:
+        print(f'Houve um erro ao ler o arquivo: {erro}')
+
+    if not achou:
+        print('Matricula não encontrada')
+        return
+
+    if achou:
+        resp = ''
+        while resp not in ['S', 'N']:
+            entrada = str(input(f'Tem certeza que quer apagar {nome_encontrado}? [S/N] ')).strip().upper()
+            if len(entrada) > 0:
+                resp = entrada[0]
+            else:
+                print('\033[31mERRO: Digite S ou N!\033[m')
+
+        if resp == 'N':
+            print('Operação cancelada!')
+            return
+
+        try:
+            with open(arq, 'wt', encoding='utf-8') as a:
+                a.writelines(lista)
+                print(f'Cadastro do aluno {nome_encontrado} foi apagado com sucesso!')
+        except:
+            print('Houve um erro ao atualizar o arquivo.')
+
+
 
 
 
